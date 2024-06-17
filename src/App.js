@@ -1,5 +1,6 @@
 
 import './App.css';
+import ExCustomHook from './Components/CustomHook/ExCustomHook';
 import ExuseLayout from './Components/ExuseLayout';
 // import ExuseReducer from './Components/ExuseReducer';
 
@@ -25,7 +26,8 @@ function App() {
       {/* <Exusecallback /> */}
       {/* <ExuseContext /> */}
       {/* <ExuseReducer /> */}
-      <ExuseLayout />
+      {/* <ExuseLayout /> */}
+      <ExCustomHook />
     </div>
   );
 }
