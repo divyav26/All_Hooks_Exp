@@ -1,0 +1,19 @@
+
+
+
+import React, { createContext } from 'react'
+// first we can create context 
+export const AppContext = createContext();
+
+
+const ContextData = (props) => {
+    const phone="+91 5647382910"
+  return (
+    // we can provide our data  
+    <AppContext.Provider value={phone}>
+      {props.children}
+    </AppContext.Provider>
+  )
+}
+
+export default ContextData

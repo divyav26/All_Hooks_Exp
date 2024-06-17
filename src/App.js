@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ExuseLayout from './Components/ExuseLayout';
+// import ExuseReducer from './Components/ExuseReducer';
+
+
+// import ExuseContext from './Components/ExuseContext';
+// import ExuseContext from './Components/ExuseContext';
+// import Exusecallback from './Components/Exusecallback';
+// import Exusememo from './Components/Exusememo';
+// import ExuseRef2 from './Components/ExuseRef2';
+// import ExuseRef from './Components/ExuseRef';
+// import ExuseEffect from './Components/ExuseEffect';
+// import ExuseState from './Components/ExuseState';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ExuseState /> */}
+      {/* <ExuseEffect /> */}
+      {/* <ExuseRef /> */}
+      {/* <ExuseRef2 /> */}
+      {/* <Exusememo /> */}
+      {/* <Exusecallback /> */}
+      {/* <ExuseContext /> */}
+      {/* <ExuseReducer /> */}
+      <ExuseLayout />
     </div>
   );
 }
